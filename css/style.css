@@ -1,0 +1,425 @@
+@font-face{
+	font-family:arrow;
+	src:url("../fonts/font.ttf");
+	
+}
+@font-face{
+	font-family: xarrow;
+	src:url("../fonts/12517.otf");
+}
+*{
+	margin: 0;
+	color: #009900;
+
+}
+@media screen and (max-width: 1280px) {
+	.entrence{
+		display: block;
+		background: black;
+		width: 100%;
+		overflow: hidden;
+	}
+		.sample{
+			width: 75%;
+			height: 50px;
+			position: absolute;
+			left: 12.5%;
+			top: 25%;
+			font-family: Arial;
+			text-align: center;
+		}
+			.ruscrd{
+				color: white
+			}
+		.rangeload{
+			width: 75%;
+			height: 10px;
+			background: white;
+			margin-left: 12.5%;
+			float: left;
+		}
+			.inrange{
+				height: 100%;
+				width: 0px;
+				background: #009900;
+				transition: 1s;
+			}
+		.btnanim{
+			background: white;
+			height: 25px;
+			width: 75px;
+			margin-top: 20px;
+			border: 0;
+			color: black;
+			font-family: Arial;
+		}
+	.mainpage{
+		display: none;
+	}
+		.header{
+			background-image: url(../img/bg.png);
+			width: 100%;
+			height: 100px;
+			font-family: arrow;
+		}
+			.l{
+				height: 50%;
+				text-align: center;
+				padding-top: 25px;
+			}
+		.main{
+			background-image: url(../img/bg.png);
+			width: 100%;
+		}
+			.deco{
+				position: absolute;
+				z-index: 0;
+				transition: 0.25s;
+			}
+			.decos{
+				position: absolute;
+				z-index: 0;
+				
+			}
+			.container{
+				width: 75%;
+				margin-left: 12.5%;
+				height: 100%;
+				background: black;
+				z-index: 2;
+				font-family: xarrow;
+			}
+				.about{
+					background: black;
+					width: 50%;
+					height: 50%;
+					float: left;
+					overflow: hidden;
+					transition: 1s;
+				}
+					.inconhead{
+						width: 100%;
+						height: 20%;
+					}
+					.incon{
+						width: 90%;
+						height: 80%;
+						background: black;
+						margin-left: 5%;
+					}
+				.achievments{
+					background: black;
+					width: 50%;
+					height: 50%;
+					float: left;
+					transition: 1s;
+					overflow:hidden;
+				}
+					.inconhead2{
+						width: 100%;
+						height: 20%;
+					}
+						
+					.incon2{
+						width: 90%;
+						height: 80%;
+						background: black;
+						margin-left: 5%;
+					}
+						.mozgoton{
+							width: 100%;
+							height: 100%;
+							margin-bottom:15px;
+						}
+							.headach1{
+								width: 100%;
+								height: 25%;
+							}
+							.conach1{
+								width: 100%;
+								height: 75%;
+							}
+								.textach1{
+									width: 45%;
+									height: 100%;
+									float: left;
+									margin-left: 5%;
+									overflow: hidden;
+								}
+								.imgach1{
+									width: 50%;
+									height: 100%;
+									float: left;
+								}
+								.achimg{
+									width: 100%;
+									height: 100%;
+								}
+								.achimg:hover{
+									position: absolute;
+									width: 50%;
+									height: 80%;
+									z-index: 9999;
+									left: 40%;
+									top: 10%;
+								}
+				.myprojects{
+					background: black;
+					width: 100%;
+					height: 50%;
+					float: left;
+					transition: 1s;
+					overflow: hidden;
+				}
+					.inconhead3{
+						width: 100%;
+						height: 20%;
+					}
+					.incon3{
+						width: 90%;
+						height: 80%;
+						background: black;
+						margin-left: 5%;
+					}
+						.mydiv{
+							width: 90%;
+							height:100%;
+							margin-left: 5%;
+						}
+							.myhead{
+								width: 100%;
+								height: 25%;
+							}
+							.myin{
+								width: 100%;
+								height: 75%;
+							}
+								.mycon{
+									width: 62.5%;
+									height: 100%;
+									float: left;
+									margin-left: 2.5%;
+								}
+								.myimg{
+									width: 35%;
+									height: 100%;
+									float: left;
+								}
+		.footer{
+			background: black;
+			width: 100%;
+			height: 50px;
+			font-family: xarrow;
+		}
+}
+@media screen and (max-width: 620px) {
+
+	.entrence{
+		display: block;
+		background: black;
+		width: 100%;
+		overflow: hidden;
+	}
+		.sample{
+			width: 75%;
+			height: 50px;
+			position: absolute;
+			left: 12.5%;
+			top: 25%;
+			font-family: Arial;
+			text-align: center;
+		}
+			.ruscrd{
+				color: white
+			}
+		.rangeload{
+			width: 75%;
+			height: 10px;
+			background: white;
+			margin-left: 12.5%;
+			float: left;
+		}
+			.inrange{
+				height: 100%;
+				width: 0px;
+				background: #009900;
+				transition: 1s;
+			}
+		.btnanim{
+			background: white;
+			height: 25px;
+			width: 75px;
+			margin-top: 20px;
+			border: 0;
+			color: black;
+			font-family: Arial;
+		}
+	.mainpage{
+		display: none;
+	}
+		.header{
+			background-image: url(../img/bg.png);
+			width: 100%;
+			height: 100px;
+			font-family: arrow;
+		}
+			.l{
+				height: 50%;
+				text-align: center;
+				padding-top: 25px;
+			}
+				.logo{
+					font-size: 125%;
+				}
+		.main{
+			background-image: url(../img/bg.png);
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+			.deco{
+				position: absolute;
+				z-index: 0;
+				transition: 0.25s;
+				display: none;
+			}
+			.decos{
+				position: absolute;
+				z-index: 0;
+				display: none;
+			}
+			.container{
+				width: 100%;
+				margin-left: 0%;
+				height: 100%;
+				background: black;
+				z-index: 2;
+				font-family: xarrow;
+			}
+				.about{
+					background: black;
+					width: 100%;
+					height: 100%;
+					float: left;
+					overflow: auto;
+					transition: 1s;
+				}
+					.inconhead{
+						width: 100%;
+						height: 20%;
+					}
+					.incon{
+						width: 90%;
+						height: 80%;
+						background: black;
+						margin-left: 5%;
+					}
+				.achievments{
+					background: black;
+					width: 100%;
+					height: 100%;
+					float: left;
+					transition: 1s;
+					overflow:auto;
+				}
+					.inconhead2{
+						width: 100%;
+						height: 20%;
+					}
+						
+					.incon2{
+						width: 90%;
+						height: 80%;
+						background: black;
+						margin-left: 5%;
+					}
+						.mozgoton{
+							width: 100%;
+							height: 100%;
+							margin-bottom:15px;
+						}
+							.headach1{
+								width: 100%;
+								height: 25%;
+							}
+							.conach1{
+								width: 100%;
+								height: 75%;
+							}
+								.textach1{
+									width: 95%;
+									height: 100%;
+									float: left;
+									margin-left: 5%;
+									overflow: hidden;
+								}
+								.imgach1{
+									width: 0%;
+									height: 100%;
+									float: left;
+								}
+								.achimg{
+									width: 100%;
+									height: 100%;
+								}
+								.achimg:hover{
+									position: absolute;
+									width: 50%;
+									height: 80%;
+									z-index: 9999;
+									left: 40%;
+									top: 10%;
+								}
+				.myprojects{
+					background: black;
+					width: 100%;
+					height: 100%;
+					float: left;
+					transition: 1s;
+					overflow: auto;
+				}
+					.inconhead3{
+						width: 100%;
+						height: 20%;
+					}
+					.incon3{
+						width: 90%;
+						height: 80%;
+						background: black;
+						margin-left: 5%;
+					}
+						.mydiv{
+							width: 90%;
+							height:100%;
+							margin-left: 5%;
+						}
+							.myhead{
+								width: 100%;
+								height: 25%;
+							}
+							.myin{
+								width: 100%;
+								height: 75%;
+							}
+								.mycon{
+									width: 97.5%;
+									height: 100%;
+									float: left;
+									margin-left: 2.5%;
+								}
+								.myimg{
+									width: 0%;
+									height: 100%;
+									float: left;
+								}
+		.footer{
+			background: grey;
+			width: 100%;
+			height: 70px;
+			font-family: xarrow;
+			color: black;
+		}
+			.off{
+				display: none;
+			}
+}
